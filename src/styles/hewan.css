@@ -1,0 +1,54 @@
+.animal-list-container {
+    margin: 20px;
+  }
+  
+  .animal-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .animal-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .animal-image {
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 50%; /* Tambahkan properti border-radius */
+    border: 2px solid #333; /* Tambahkan properti border */
+  }
+  
+  .animal-info {
+    flex: 1;
+  }
+  
+  .animal-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .animal-description {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hewan-heading {
+    background-color: #989d98;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    padding: 5px;
+    width: 50%;
+    color: #f7faf7;
+    border-radius: 10px;
+    max-width: 1000px; 
+  margin: 0 auto;
+}
