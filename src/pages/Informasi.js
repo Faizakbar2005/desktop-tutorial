@@ -41,7 +41,7 @@ function Informasi() {
         ></iframe>
       </div>
 
-      <div className="complaint-box bg-gray-100 p-4 rounded shadow-md mt-6">
+      <div className="complaint-box bg-gray-100 p-4 rounded-lg shadow-md mt-20 mb-20">
         <h3 className="text-lg font-bold mb-2" align="center">Kolom Pengaduan</h3>
         <form onSubmit={handleSubmit}>
           <div className="form-field mb-4">

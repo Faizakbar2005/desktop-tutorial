@@ -5,11 +5,11 @@ import '../styles/box.css';
 function Home() {
   return (
     <div className="hewan mx-auto">
-      <div className="flex justify-center">
+      <div className="imgfront flex justify-center">
         <img
-          src="https://ragunanzoo.jakarta.go.id/wp-content/uploads/2014/12/image-slidder-13.jpg"
+          src="https://cdn.discordapp.com/attachments/1096614485231423568/1127300416850378954/imgfrontragunan.png"
           alt="Kebun Binatang Ragunan"
-          className="w-max h-auto"
+          className="w-screen h-auto m-0 p-0 rounded-[15px]" /*w-max*/
         />
       </div>
       <div className="my-8">
