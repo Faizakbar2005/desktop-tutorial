@@ -9,7 +9,7 @@ function Home() {
         <img
           src="https://ragunanzoo.jakarta.go.id/wp-content/uploads/2014/12/image-slidder-13.jpg"
           alt="Kebun Binatang Ragunan"
-          className="w-screen h-auto"
+          className="w-max h-auto"
         />
       </div>
       <div className="my-8">

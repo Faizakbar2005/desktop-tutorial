@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: Century Gothic; */
+}
+
+.googlemap {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}

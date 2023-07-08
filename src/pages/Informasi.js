@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import '../styles/informasi.css';
+
 
 function Informasi() {
   const [name, setName] = useState('');
@@ -30,13 +32,14 @@ function Informasi() {
   return (
     <div>
       <h2 className="text-2xl font-bold mb-4">Map Ragunan</h2>
-
-      <iframe
-        src="https://www.google.com/maps/d/embed?mid=1WxhE_KdpD1pO36C0ow-q9HCQHuDMuGJL&ehbc=2E312F"
-        width="100%"
-        height="700"
-        title="Google Maps"
-      ></iframe>
+      <div className="googlemap" align="center">
+        <iframe
+          src="https://www.google.com/maps/d/embed?mid=1WxhE_KdpD1pO36C0ow-q9HCQHuDMuGJL&ehbc=2E312F"
+          width="1200"
+          height="700"
+          title="Google Maps"
+        ></iframe>
+      </div>
 
       <div className="complaint-box bg-gray-100 p-4 rounded shadow-md mt-6">
         <h3 className="text-lg font-bold mb-2" align="center">Kolom Pengaduan</h3>

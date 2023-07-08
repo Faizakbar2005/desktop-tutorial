@@ -14,8 +14,7 @@ function App() {
         background: `url(${background})` ,
         backgroundRepeat: 'repeat',
         backgroundPosition: 'center',
-        }}
-          >
+        }}>
         <header className="bg-green-500 py-4">
           <nav className="navbar mx-auto px-4 flex justify-between items-center">
             <h1 className="text-white text-3xl">Kebun Binatang Ragunan</h1>

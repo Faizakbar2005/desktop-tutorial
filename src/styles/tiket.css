@@ -1,4 +1,11 @@
-/* ReservationPage.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: Century Gothic; */
+}
+
+
 .reservation-container {
     margin: 40px auto;
     width: 80%;
