@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/hewan.css';
+import '../styles/fauna.css';
 import harimau from '../assets/harimau-sumatera.jpg';
 import singa from '../assets/Singa-afr.jpg';
 import beruang from '../assets/beruang-madu.jpg';
@@ -19,7 +19,7 @@ const AnimalList = () => {
 
   return (
     <div className="animal-list-container">
-      <h2 align="center" class="hewan-heading">MAMALIA </h2>
+      <h2 align="center" class="hewan-heading">MAMALIA</h2>
       <br></br>
       <ul className="animal-list">
         {animals.map(animal => (
@@ -34,6 +34,7 @@ const AnimalList = () => {
           </li>
         ))}
       </ul>
+      <h2 align="center" class="hewan-heading">REPTIL</h2>
     </div>
     
   );

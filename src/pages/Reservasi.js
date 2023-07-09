@@ -1,6 +1,6 @@
 // ReservationPage.js
 import React, { useState } from 'react';
-import '../styles/tiket.css';
+import '../styles/reservasi.css';
 
 function ReservationPage() {
   const [ticketType, setTicketType] = useState('');

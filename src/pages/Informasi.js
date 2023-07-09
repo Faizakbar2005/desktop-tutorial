@@ -31,7 +31,7 @@ function Informasi() {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-4">Map Ragunan</h2>
+      <h2 className="text-2xl font-bold mb-4">Peta Ragunan</h2>
       <div className="googlemap" align="center">
         <iframe
           src="https://www.google.com/maps/d/embed?mid=1WxhE_KdpD1pO36C0ow-q9HCQHuDMuGJL&ehbc=2E312F"
@@ -66,7 +66,9 @@ function Informasi() {
               id="email"
               value={email}
               onChange={handleEmailChange}
-              className="w-full border border-gray-300 rounded py-2 px-3"
+              className="w-full border border-gray-300 rounded py-2 px-3 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+              invalid:border-pink-500 invalid:text-pink-600
+              focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
               required
             />
           </div>

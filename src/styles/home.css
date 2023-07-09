@@ -20,12 +20,7 @@
   background-color: #a8aea5;
   border: 1px solid #ccc;
   padding: 20px;
-  border-radius: 4px;
-}
-
-.imgfront {
-  background-size: cover;
-  background-position: center;
+  border-radius: 7px;
 }
 
 .box-title {
@@ -42,4 +37,39 @@
 
 h1 {
   font-family: "Georgia", serif;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  /* border-collapse: collapse; */
+  border-radius: 10px;
+  background: rgb(204, 204, 204);
+  border: 0px;
+}
+
+th {
+  border: 0px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+td {
+  width: 33%;
+  padding: 8px;
+}
+
+table img {
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.tabelfasilitas th:nth-child(2), td:nth-child(2) {
+  border-left: 3px solid white;
+  border-right: 3px solid white;
 }
