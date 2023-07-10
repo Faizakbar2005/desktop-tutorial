@@ -20,7 +20,7 @@ const AnimalList = () => {
     { id: 3, name: 'Beruang Madu', description: 'Beruang madu (Helarctos malayanus) memiliki seluruh tubuh berwarna hitam mengkilap, ekor sangat pendek, moncong abu­-abu. Dada atas ada bercak putih kekuningan membentuk huruf “V” atau “C”.', image: beruang },
     { id: 4, name: 'Beruk', description: 'Beruk (Macaca nemestrina) dewasa jantan dapat mencapai berat badan sampai 5 – 15 kg. Monyet-monyet ini memiliki warna kekuning-kuningan sampai cokelat dengan punggung berwarna lebih gelap dan lebih terang pada tubuh bagian bawahnya.', image: beruk },
     { id: 4, name: 'Gorila', description: 'Gorila adalah jenis primata yang terbesar. Gorila berasal dari hutan tropis di Afrika. 97-98% DNA gorila identik dengan DNA manusia.', image: gorila },
-    { id: 4, name: 'Rusa Sulawesi', description: 'The sambar (Rusa unicolor) adalah rusa asli besar ke benua India, Cina selatan dan Asia Tenggara.', image: rusa },
+    { id: 4, name: 'Rusa Sulawesi', description: 'The Sambar (Rusa unicolor) adalah rusa asli besar ke benua India, Cina selatan dan Asia Tenggara.', image: rusa },
   ];
 
   const animals2 = [

@@ -27,7 +27,7 @@ function Home() {
                 <td class="td1"><img src="https://ragunanzoo.jakarta.go.id/wp-content/uploads/2014/10/IMG_3568-271x300.jpg" alt="Taman Refleksi"/></td>
                 <td class="td1"><img src="https://ragunanzoo.jakarta.go.id/wp-content/uploads/2014/10/other-facilities-3b2.jpg" alt="Taman Satwa Anak"/></td>
             </tr>
-            <tr class="tr1">
+            <tr class="tr1 text-justify text-center">
                 <td>Pusat Primata Schmutzer adalah salah satu pusat primata berkelas internasional yang mempunyai peranan dalam konservasi primata Indonesia dan sekaligus sebagai Jendela Informasi Primata.</td>
                 <td>Taman Refleksi adalah taman yang didesain untuk melakukan relaksasi dan olahraga ataupun sekedar berfoto ditaman tersebut dengan icon Orang Utan yang berada tepat di tengah kolam</td>
                 <td>Taman Satwa Anak merupakan taman satwa yang menampilkan beberapa satwa yang disukai anak-anak seperti: ikan raksasa arapaima gigas yaitu ikan dengan berat mencapai lebih dari 100 kg.</td>
