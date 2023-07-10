@@ -39,7 +39,7 @@ h1 {
   font-family: "Georgia", serif;
 }
 
-table {
+.tabelfasilitas {
   width: 100%;
   max-width: 100%;
   /* border-collapse: collapse; */
@@ -48,28 +48,68 @@ table {
   border: 0px;
 }
 
-th {
+.th1 {
   border: 0px;
 }
 
-th, td {
+.th1, .td1 {
   padding: 8px;
   text-align: left;
   border-radius: 10px;
 }
 
-td {
+.td1 {
   width: 33%;
   padding: 8px;
+  text-align: justify;
+
 }
 
-table img {
+.td1 img {
   width: 500px;
-  height: 250px;
+  height: 300px;
   border-radius: 10px;
 }
 
 .tabelfasilitas th:nth-child(2), td:nth-child(2) {
   border-left: 3px solid white;
   border-right: 3px solid white;
+}
+
+.tabel2 {
+  background-color: rgba(0, 255, 255, 0);
+  text-align: center;
+}
+
+.detail {
+  font-family: "Tahoma"
+}
+
+.td2 img{
+  width: 600px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.td2 {
+  width: 50%;
+  padding: 8px;
+  text-align: justify;
+
+}
+
+.visimisi {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.vm {
+ font-size: 20px;
+}
+
+.vmd {
+ font-size: 20px;
 }

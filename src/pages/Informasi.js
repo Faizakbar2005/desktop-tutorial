@@ -41,6 +41,43 @@ function Informasi() {
         ></iframe>
       </div>
 
+      <br></br>
+      <h2 className="text-2xl font-bold mb-4">Berita Terbaru</h2>
+      <div class="berita flex flex-row mx-auto pl-100">
+        <div><h2></h2></div>
+        <div><a href="https://ragunanzoo.jakarta.go.id/perubahan-jam-buka-selama-puasa/"><img src="https://ragunanzoo.jakarta.go.id/wp-content/uploads/2023/03/Screenshot_1.png"></img></a><h1 align="center" class="text-xl font-bold pt-5">Perubahan Jam Buka Selama Puasa</h1></div>
+        <div class="px-10"><a href="https://ragunanzoo.jakarta.go.id/ganjil-genap-tidak-berlaku/"><img src="https://ragunanzoo.jakarta.go.id/wp-content/uploads/2022/02/WhatsApp-Image-2022-02-18-at-09.27.34.jpeg"></img></a><h1 align="center" class="text-xl font-bold pt-5">Ganji Genap Tidak Berlaku</h1></div>
+        <div><a href="https://ragunanzoo.jakarta.go.id/aturan-berkunjunga-selama-ppkm-level-3/"><img src="https://ragunanzoo.jakarta.go.id/wp-content/uploads/2022/02/WhatsApp-Image-2022-02-09-at-18.12.41-1.jpeg"></img></a><h1 align="center" class="text-xl font-bold pt-5">Aturan Berkunjung Selama PPKM</h1></div>
+      </div>
+
+      {/* <div className="berita">
+        <table className="tabelberita table-auto">
+          <tr className="trberita">
+            <td class="tdberita">
+              <img src="https://ragunanzoo.jakarta.go.id/wp-content/uploads/2023/03/Screenshot_1.png"></img>
+            </td>
+            <td class="tdberita">
+              <img src="https://ragunanzoo.jakarta.go.id/wp-content/uploads/2022/02/WhatsApp-Image-2022-02-18-at-09.27.34.jpeg"></img>
+            </td>
+            <td class="tdberita">
+              <img src="https://ragunanzoo.jakarta.go.id/wp-content/uploads/2022/02/WhatsApp-Image-2022-02-09-at-18.12.41-1.jpeg"></img>
+            </td>
+          </tr>
+          <tr className="trdetailberita">
+            <td className="tdd space-y-4">
+              Perubahan Jam Buka Selama Puasa
+            </td>
+            <td>
+              Ganjil Genap Tidak Berlaku
+            </td>
+            <td>
+              Aturan Berkunjung Selama PPKM Level 3
+            </td>
+          </tr>
+        </table>
+      </div> */}
+
+
       <div className="complaint-box bg-gray-100 p-4 rounded-lg shadow-md mt-20 mb-20">
         <h3 className="text-lg font-bold mb-2" align="center">Kolom Pengaduan</h3>
         <form onSubmit={handleSubmit}>

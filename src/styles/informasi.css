@@ -9,3 +9,33 @@
     margin-top: 30px;
     margin-bottom: 50px;
 }
+
+.tabelberita {
+    /* width: 100%;
+    max-width: 100%; */
+    background: rgb(204, 204, 204);
+}
+
+.tabelberita img {
+    width: 400px;
+    height: 400px;
+}
+
+.tdberita {
+    /* width: 33%; */
+}
+
+.berita img {
+    width: 400px;
+    height: 400px;
+}
+
+.berita {
+    align-items: center;
+    width: fit-content;
+}
+
+.complaint-box {
+    margin-left: 100px;
+    margin-right: 100px;
+}

@@ -1,21 +1,31 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import background from './assets/putih.jpg'
 import Home from './pages/Home';
 import Reservasi from './pages/Reservasi';
 import Fauna from './pages/Fauna';
 import Informasi from './pages/Informasi';
 
+function ScrollToTopOnNavigation() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <Router>
-      <div className="bg-gray-100 min-h-screen"
-      style={{ 
-        background: `url(${background})` ,
+      <div className="App bg-gray-100 min-h-screen" style={{ 
+        background: `url(${background})`,
         backgroundRepeat: 'repeat',
         backgroundPosition: 'center',
-        }}>
-        <header className="bg-green-500 py-4">
+      }}>
+        <ScrollToTopOnNavigation />
+        <header className="bg-green-500 py-4 sticky top-0 z-10">
           <nav className="navbar mx-auto px-4 flex justify-between items-center">
             <h1 className="text-white text-3xl">Kebun Binatang Ragunan</h1>
             <ul className="flex space-x-4">
