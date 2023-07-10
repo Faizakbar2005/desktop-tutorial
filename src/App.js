@@ -20,7 +20,7 @@ function App() {
             <h1 className="text-white text-3xl">Kebun Binatang Ragunan</h1>
             <ul className="flex space-x-4">
               <li>
-                <Link to="/" className="text-white hover:underline">Home</Link>
+                <Link to="/" className="text-white hover:underline">Beranda</Link>
               </li>
               <li>
                 <Link to="/Reservasi" className="text-white hover:underline">Reservasi</Link>

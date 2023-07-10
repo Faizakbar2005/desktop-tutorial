@@ -18,9 +18,9 @@ function Home() {
 
         <table class="tabelfasilitas">
             <tr>
-                <th>Pusat Primata Schmutzer</th>
-                <th>Taman Refleksi</th>
-                <th>Satwa Anak</th>
+                <th className="text-[25px] text-center">Pusat Primata Schmutzer</th>
+                <th className="text-[25px] text-center">Taman Refleksi</th>
+                <th className="text-[25px] text-center">Satwa Anak</th>
             </tr>
             <tr>
                 <td><img src="https://ragunanzoo.jakarta.go.id/wp-content/uploads/2014/10/smutzer2.jpg" alt="Pusat Primata Schmutzer"/></td>
